@@ -1,0 +1,136 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f7f6fc;
+  color: #24213b;
+}
+
+.app { min-height: 100vh; }
+
+.hero {
+  text-align: center;
+  padding: 72px 24px 56px;
+  background: linear-gradient(135deg, #54575a 0%, #e3b5cb 100%);
+  color: #ffffff;
+}
+
+.hero__logo {
+  font-family: "Sora", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin-bottom: 12px;
+}
+
+.hero h1 {
+  font-family: "Sora", sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin: 0 0 12px;
+}
+
+.hero__subtitle {
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ece9ff;
+}
+
+.hero__subtitle code {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.section {
+  padding: 56px 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section--dark {
+  max-width: 100%;
+  background: #dcccd5;
+}
+
+.section--dark .section__header h2,
+.section--dark .section__header p { color: #313033; }
+
+.section--dark .section__header p { color: #5f5f61; }
+
+.section--dark .card-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section__header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.section__eyebrow {
+  display: inline-block;
+  font-family: "Sora", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6b6b6e;
+  margin-bottom: 8px;
+}
+
+.section__header h2 {
+  font-family: "Sora", sans-serif;
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+}
+
+.section__header p {
+  margin: 0;
+  color: #404041;
+}
+
+/* --- Corrected Flexbox Card Grid Layout --- */
+.card-grid {
+  display: flex;
+  flex-direction: row;     /* Forces cards to line up horizontally */
+  flex-wrap: wrap;         /* Allows wrapping when screen gets narrow */
+  justify-content: center; /* Centers cards if they don't fill the row */
+  gap: 24px;
+  width: 100%;
+}
+
+/* 
+  Since .card-grid uses Flexbox, we manage responsiveness 
+  via the cards themselves, or by adjusting alignment here!
+*/
+@media (max-width: 900px) {
+  .card-grid {
+    justify-content: center; 
+  }
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    flex-direction: column;  /* Stack cards vertically only on small mobile screens */
+    align-items: center;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 28px;
+  color: #8b86a8;
+  background-color: #dcccd5;
+  font-size: 0.85rem;
+}
+
+/* Cleaned up the trailing broken profile-card utility block */
+.profile-card-wrapper {
+  position: relative;
+  border-radius: 18px;
+}

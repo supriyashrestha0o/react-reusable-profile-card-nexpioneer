@@ -1,0 +1,43 @@
+const alumni = [
+  {
+    id: "a1",
+    image: "https://img.magnific.com/free-photo/business-finance-employment-female-successful-entrepreneurs-concept-smiling-professional-female-office-manager-ceo-e-commerce-company-looking-pleased-camera-white-background_1258-59171.jpg?semt=ais_hybrid&w=740&q=80",
+    name: "Sanya Kapoor",
+    role: "Software Engineer",
+    description: "Graduated from the Full Stack track and now builds scalable services at a fintech startup.",
+    skills: ["React", "TypeScript", "AWS"],
+    buttonText: "Connect",
+    isVerified: true,
+    rating: 5,
+    theme: "dark",
+    borderColor: "#A29BFE",
+  },
+  {
+    id: "a2",
+    image: "https://cdn.prod.website-files.com/664678c4bb2376a19eee41f5/69e7acd72d99d7d763edd32f_694f9a79071292cdd80f0e6f_Talent%2520-%2520Valeria%2520C.png",
+    name: "Neekei Paul",
+    role: "Product Designer",
+    description: "Went from UI/UX student to leading design for a consumer app used by millions of people.",
+    skills: ["Figma", "Prototyping", "Design Ops"],
+    buttonText: "Connect",
+    isVerified: true,
+    rating: 4.5,
+    theme: "dark",
+    borderColor: "#FF7675",
+  },
+  {
+    id: "a3",
+    image: "https://img.magnific.com/free-photo/close-up-portrait-businesswoman-asian-female-entrepreneur-suit-smiling-looking-professional-standing-against-white-background_1258-89144.jpg?semt=ais_hybrid&w=740&q=80",
+    name: "Kripa Roy",
+    role: "Data Analyst",
+    description: "Now turns raw data into business insights, after starting out in our backend student cohort.",
+    skills: ["Python", "SQL", "Power BI"],
+    buttonText: "Connect",
+    isVerified: false,
+    rating: 4,
+    theme: "dark",
+    borderColor: "#55EFC4",
+  },
+];
+
+export default alumni;

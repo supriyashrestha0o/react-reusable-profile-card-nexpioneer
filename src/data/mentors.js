@@ -1,0 +1,40 @@
+const mentors = [
+  {
+    id: "m1",
+    image: "https://static.vecteezy.com/system/resources/thumbnails/038/962/461/small/ai-generated-caucasian-successful-confident-young-businesswoman-ceo-boss-bank-employee-worker-manager-with-arms-crossed-in-formal-wear-isolated-in-white-background-photo.jpg",
+    name: "Ananya Rao",
+    role: "UI/UX Mentor",
+    description: "Guides students through design thinking, wireframing, and building interfaces people love to use.",
+    skills: ["Figma", "Design Systems", "User Research"],
+    buttonText: "View Profile",
+    isVerified: true,
+    rating: 5,
+    borderColor: "#FF6B6B",
+  },
+  {
+    id: "m2",
+    image: "https://thumbs.dreamstime.com/b/close-up-headshot-portrait-smiling-caucasian-young-businessman-formal-suit-pose-office-profile-picture-happy-confident-288413326.jpg",
+    name: "Rohan Mehta",
+    role: "React Mentor",
+    description: "Helping students learn modern web development with React, hooks, and clean component architecture.",
+    skills: ["React", "JavaScript", "Node.js"],
+    buttonText: "View Profile",
+    isVerified: true,
+    rating: 4.5,
+    borderColor: "#6C5CE7",
+  },
+  {
+    id: "m3",
+    image: "https://media.istockphoto.com/id/1371934584/photo/portrait-of-a-confident-mature-businesswoman-working-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=NF_IO6IEXY3HifRIhRqP0KDFJFdlFwaMwo3zfOOvKnQ=",
+    name: "Priya Nair",
+    role: "Career Mentor",
+    description: "Supports learners with resume reviews, mock interviews, and mapping out a long-term tech career path.",
+    skills: ["Career Coaching", "Interview Prep", "Networking"],
+    buttonText: "Book a Session",
+    isVerified: false,
+    rating: 4,
+    borderColor: "#00B894",
+  },
+];
+
+export default mentors;

@@ -1,0 +1,43 @@
+const alumni = [
+  {
+    id: "a1",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVak5FyHdnCaS1Wfv91Uw86FUDjBo5wfNAZem1CEuuVS9CJJcE0z3COxN&s=10",
+    name: "Sanya Kapoor",
+    role: "Software Engineer",
+    description: "Graduated from the Full Stack track and now builds scalable services at a fintech startup.",
+    skills: ["React", "TypeScript", "AWS"],
+    buttonText: "Connect",
+    isVerified: true,
+    rating: 5,
+    theme: "dark",
+    borderColor: "#A29BFE",
+  },
+  {
+    id: "a2",
+    image: "https://img.magnific.com/free-photo/portrait-delighted-hipster-male-student-with-crisp-hair_176532-8157.jpg?semt=ais_hybrid&w=740&q=80",
+    name: "Vikram Desai",
+    role: "Product Designer",
+    description: "Went from UI/UX student to leading design for a consumer app used by millions of people.",
+    skills: ["Figma", "Prototyping", "Design Ops"],
+    buttonText: "Connect",
+    isVerified: true,
+    rating: 4.5,
+    theme: "dark",
+    borderColor: "#FF7675",
+  },
+  {
+    id: "a3",
+    image: "https://t4.ftcdn.net/jpg/05/36/18/25/360_F_536182562_ZSBcmLA5YUguzfm8GvhEMzZ6ACs90XVv.jpg",
+    name: "Neha Joshi",
+    role: "Data Analyst",
+    description: "Now turns raw data into business insights, after starting out in our backend student cohort.",
+    skills: ["Python", "SQL", "Power BI"],
+    buttonText: "Connect",
+    isVerified: false,
+    rating: 4,
+    theme: "dark",
+    borderColor: "#55EFC4",
+  },
+];
+
+export default alumni;

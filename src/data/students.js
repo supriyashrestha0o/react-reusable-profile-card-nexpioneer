@@ -1,0 +1,40 @@
+const students = [
+  {
+    id: "s1",
+    image: "https://img.magnific.com/free-photo/horizontal-portrait-smiling-happy-young-pleasant-looking-female-wears-denim-shirt-stylish-glasses-with-straight-blonde-hair-expresses-positiveness-poses_176420-13176.jpg?semt=ais_hybrid&w=740&q=80",
+    name: "Nida Charlie",
+    role: "Frontend Student",
+    description: "Currently building projects with React and Tailwind CSS while learning responsive design patterns.",
+    skills: ["HTML", "CSS", "React"],
+    buttonText: "View Progress",
+    isVerified: false,
+    rating: 3.5,
+    borderColor: "#0984E3",
+  },
+  {
+    id: "s2",
+    image: "https://img.magnific.com/premium-photo/portrait-smiling-young-woman-against-white-background_1258-323535.jpg?semt=ais_hybrid&w=740&q=80",
+    name: "Spriha Kaif",
+    role: "Backend Student",
+    description: "Learning to design REST APIs and databases, currently working on an Express + MongoDB project.",
+    skills: ["Node.js", "Express", "MongoDB"],
+    buttonText: "View Progress",
+    isVerified: false,
+    rating: 3,
+    borderColor: "#00B894",
+  },
+  {
+    id: "s3",
+    image: "https://static.vecteezy.com/system/resources/thumbnails/033/129/417/small/a-business-man-stands-against-white-background-with-his-arms-crossed-ai-generative-photo.jpg",
+    name: "Kelvin Verma",
+    role: "Full Stack Student",
+    description: "Building end-to-end applications, connecting a React frontend to a Node backend with authentication.",
+    skills: ["React", "Node.js", "SQL"],
+    buttonText: "View Progress",
+    isVerified: true,
+    rating: 4,
+    borderColor: "#FDCB6E",
+  },
+];
+
+export default students;
