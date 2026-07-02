@@ -97,17 +97,13 @@ body {
 /* --- Corrected Flexbox Card Grid Layout --- */
 .card-grid {
   display: flex;
-  flex-direction: row;     /* Forces cards to line up horizontally */
-  flex-wrap: wrap;         /* Allows wrapping when screen gets narrow */
-  justify-content: center; /* Centers cards if they don't fill the row */
+  flex-direction: row;     
+  flex-wrap: wrap;         
+  justify-content: center; 
   gap: 24px;
   width: 100%;
 }
 
-/* 
-  Since .card-grid uses Flexbox, we manage responsiveness 
-  via the cards themselves, or by adjusting alignment here!
-*/
 @media (max-width: 900px) {
   .card-grid {
     justify-content: center; 
@@ -129,7 +125,6 @@ body {
   font-size: 0.85rem;
 }
 
-/* Cleaned up the trailing broken profile-card utility block */
 .profile-card-wrapper {
   position: relative;
   border-radius: 18px;
